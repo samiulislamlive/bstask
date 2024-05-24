@@ -7,11 +7,14 @@ class RepoDetailsScreen extends StatelessWidget {
 
   RepoDetailsScreen({required this.repo});
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(repo.name!),
+        backgroundColor: Colors.blue,
+        centerTitle: true,
       ),
       body: Padding(
         padding: EdgeInsets.all(16.0),
