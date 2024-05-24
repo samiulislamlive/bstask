@@ -1,3 +1,7 @@
+
+I structured the code following MVVM structure. In repository and data cases could have handled better. Learned some essential thing via this task.
+
+
 1. Flutter repositories fetched
 2. Show essential Data including name, owner and star count
 3. Pagination (Incomplete)
